@@ -39,23 +39,6 @@ h1 {
 .people {
   width: 440px;
   margin: auto; }
-  .people__person {
-    text-align: center;
-    padding-bottom: 15px;
-    padding-top: 10px; }
-    .people__person:hover {
-      background-color: #eee;
-      -webkit-animation: scale 1s;
-              animation: scale 1s;
-      -webkit-animation-fill-mode: forwards;
-              animation-fill-mode: forwards; }
-      .people__person:hover > * > img {
-        -webkit-animation: border 1s;
-                animation: border 1s;
-        -webkit-animation-fill-mode: forwards;
-                animation-fill-mode: forwards; }
-      .people__person:hover > * > .people__details-extra {
-        display: block; }
   .people__person-photo {
     position: relative;
     width: 200px;
@@ -84,6 +67,23 @@ h1 {
       font-size: 21px;
       font-weight: normal;
       display: none; }
+  .people__person {
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 10px; }
+    .people__person:hover {
+      background-color: #eee;
+      -webkit-animation: scale 1s;
+              animation: scale 1s;
+      -webkit-animation-fill-mode: forwards;
+              animation-fill-mode: forwards; }
+      .people__person:hover > * > img {
+        -webkit-animation: border 1s;
+                animation: border 1s;
+        -webkit-animation-fill-mode: forwards;
+                animation-fill-mode: forwards; }
+      .people__person:hover > * > .people__details-extra {
+        display: block; }
   @media (min-width: 1000px) {
     .people {
       width: 920px; } }
